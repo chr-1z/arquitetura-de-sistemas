@@ -9,12 +9,16 @@ Retorna código de operação
 Retorna mensagem (texto, Json,  xml)
 (<-)
 
+
+
 Principais métodos HTTP
 
 GET - solicita a representação de um recurso
 POST - solicita a criação de um recurso
 DELETE - solicita a exclusão de um recurso
 PUT - solicita a atualização de um recurso
+
+
 
 JSON
 
@@ -23,6 +27,20 @@ formatação leve utilizada para troca de mensagens entre sistemas
 usa-se de uma estrutura de chave e valor e também de listas ordenadas
 
 um dos formatos mais populares e mais utilizados para troca de mensagens entre sistemas
+
+
+
+Código de Estado - Usado pelo servidor para avisar o cliente sobre o estado da operação solicitada
+
+1xx - Informativo
+2xx - Sucesso
+3xx - Redirecionamento
+4xx - Erro do Cliente
+5xx - Erro do Servidor
+
+
+
+
 
 
 
